@@ -1,0 +1,22 @@
+{
+    "name": "nitro-lab/multilanguage-admin",
+    "description": "Allow to multilanguage support z-song\\laravel-admin based by laravel-translatable",
+    "type": "library",
+    "require": {
+        "astrotomic/laravel-translatable": "dev-master",
+        "encore/laravel-admin": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Kravchenko",
+            "email": "php.code.god@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NitroLab\\MultilanguageAdmin\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
