@@ -26,7 +26,7 @@ model need to be:
         public $translatedAttributes = ['title', 'body'];
     }
 
-and than in admin controller form:
+and then in admin controller form:
     
     use NitroLab\MultilanguageAdmin\Extensions\Form;
     use NitroLab\MultilanguageAdmin\Extensions\NestedForm;
