@@ -1,10 +1,10 @@
 {
     "name": "nitro-lab/multilanguage-admin",
-    "description": "Allow to multilanguage support z-song\\laravel-admin based by laravel-translatable",
+    "description": "Allow to multilanguage support z-song\\laravel-admin based on laravel-translatable",
     "type": "library",
     "require": {
-        "astrotomic/laravel-translatable": "dev-master",
-        "encore/laravel-admin": "dev-master"
+        "astrotomic/laravel-translatable": "^11.8",
+        "encore/laravel-admin": "^1.8"
     },
     "license": "MIT",
     "authors": [
