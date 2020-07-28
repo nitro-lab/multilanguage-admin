@@ -18,5 +18,12 @@
             "NitroLab\\MultilanguageAdmin\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NitroLab\\MultilanguageAdmin\\MultilanguageAdminServiceProvider"
+            ]
+        }
+    }
 }
