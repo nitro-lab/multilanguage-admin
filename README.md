@@ -27,7 +27,8 @@ model need to be:
     }
 
 and than in admin controller form:
-
+    
+    use NitroLab\MultilanguageAdmin\Extensions\Form;
     use NitroLab\MultilanguageAdmin\Extensions\NestedForm;
 
     /**
