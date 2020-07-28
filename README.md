@@ -28,8 +28,8 @@ model need to be:
 
 and then in admin controller form:
     
-    use NitroLab\MultilanguageAdmin\Extensions\Form;
-    use NitroLab\MultilanguageAdmin\Extensions\NestedForm;
+    use NitroLab\MultilanguageAdmin\Form;
+    use NitroLab\MultilanguageAdmin\Form\NestedForm;
 
     /**
      * Make a form builder.

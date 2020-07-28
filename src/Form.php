@@ -1,8 +1,8 @@
 <?php
 
-namespace NitroLab\MultilanguageAdmin\Extensions;
+namespace NitroLab\MultilanguageAdmin;
 
-use NitroLab\MultilanguageAdmin\Extensions\NestedForm;
+use NitroLab\MultilanguageAdmin\Form\NestedForm;
 use Encore\Admin\Form as AdminForm;
 use Encore\Admin\Form\Field;
 use Exception;

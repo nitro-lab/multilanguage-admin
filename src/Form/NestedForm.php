@@ -6,7 +6,7 @@
  * Time: 19:42
  */
 
-namespace NitroLab\MultilanguageAdmin\Extensions;
+namespace NitroLab\MultilanguageAdmin\Form;
 
 use Encore\Admin\Form\Field;
 use Encore\Admin\Form\NestedForm as EncoreNestedForm;

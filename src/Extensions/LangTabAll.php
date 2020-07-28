@@ -4,7 +4,7 @@ namespace NitroLab\MultilanguageAdmin\Extensions;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Form\Field;
-use NitroLab\MultilanguageAdmin\Extensions\NestedForm;
+use NitroLab\MultilanguageAdmin\Form\NestedForm;
 use Illuminate\Database\Eloquent\Relations\HasMany as Relation;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Arr;
