@@ -3,8 +3,8 @@
     "description": "Allow to multilanguage support z-song\\laravel-admin based on laravel-translatable",
     "type": "library",
     "require": {
-        "astrotomic/laravel-translatable": "^11.8",
-        "encore/laravel-admin": "^1.8"
+        "astrotomic/laravel-translatable": "^11.5",
+        "encore/laravel-admin": "^1.7"
     },
     "license": "MIT",
     "authors": [
