@@ -2,17 +2,14 @@
 
 ## Allow to multilanguage support z-song\laravel-admin based by laravel-translatable
 
-How to use:
+### Installation
 
-in app/Admin/bootstrap.php
+    composer require nitro-lab/multilanguage-admin
 
-    use Encore\Admin\Form;
-    use NitroLab\MultilanguageAdmin\Extensions\LangTabAll;
-    
-    Form::extend('langtaball', LangTabAll::class);
+### How to use:
     
     
-model need to be:
+model:
 
     use Astrotomic\Translatable\Translatable;
     use Illuminate\Database\Eloquent\Model;
