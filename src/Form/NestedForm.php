@@ -40,9 +40,9 @@ class NestedForm extends EncoreNestedForm
 
             $value = $this->fetchColumnValue($record, $columns);
 
-            if (is_null($value)) {
-                continue;
-            }
+//            if (is_null($value)) {
+//                continue;
+//            }
 
             if (method_exists($field, 'prepare')) {
                 $value = $field->prepare($value);
