@@ -24,7 +24,7 @@
     <hr style="margin-top: 0px;">
 
     <ul class="nav nav-tabs">
-        
+
         @foreach(config('translatable.locales') as $key => $locale)
             @if(is_array($locale))
                 @foreach($locale as $national)
@@ -59,7 +59,7 @@
                         $form = $forms[$locale];
                     @endphp
                     <div
-                        class="tab-pane fields-group has-many-{{$column}}-form @if ($form == reset($forms)) active @endif"
+                        class="tab-pane fields-group has-many-{{$column}}-form @if ($locale == config('app.locale')) active @endif"
                         id="{{ str_replace('.', '-', $relationName) . '_' . $locale }}">
                         @foreach($form->fields() as $field)
                             {!! $field->render() !!}
